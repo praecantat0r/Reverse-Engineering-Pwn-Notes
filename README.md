@@ -1,4 +1,4 @@
-# RE-AND-MALWARE-ANALYSIS_NOTES
+# RE-AND-MALWARE-ANALYSIS-NOTES
 
 The notes i create learning reverse engineering and malware analysis. All made with markup.\
 All notes can be downloaded in PDF or in markdown extension if you want to edit them.\
