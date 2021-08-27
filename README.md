@@ -7,7 +7,3 @@ All notes can be downloaded in PDF or in markdown extension if you want to edit 
 My sources are general googling, Sentinel One courses and talking with people.\
 If you want to reuse them somewhere just credit me.\
 Have fun!
-
-
-![image](https://user-images.githubusercontent.com/86436966/131134045-d4d9fa5e-3d2b-4018-b9b5-5f12b728ca03.png)
-
