@@ -23,25 +23,25 @@
 ![image](https://user-images.githubusercontent.com/86436966/132128945-56b1eb61-4255-429c-b559-af3a6b515dee.png)
 
 
-> EAX -- Stores function return values
-> EBX -- Base pointer to the data section
-> ECX -- Counter for string and loop operations
-> EDX -- I/O pointer
-> ESI -- Source pointer for string operations
-> EDI -- Destination pointer for string operations
-> ESP -- Stack Pointer
-> EBP -- Stack frame base pointer
+> EAX -- Stores function return values\
+> EBX -- Base pointer to the data section\
+> ECX -- Counter for string and loop operations\
+> EDX -- I/O pointer\
+> ESI -- Source pointer for string operations\
+> EDI -- Destination pointer for string operations\
+> ESP -- Stack Pointer\
+> EBP -- Stack frame base pointer\
 > EIP -- Pointer to next instruction to execute, cannot be directly modified with mov but can inderectly be modified by referencing with operations
 
 - GPR are used for basic arithmetic and typical operations. Pointer registers are used for pointing at memory for program control.
 ## Flags and Segment Registers
->  CS -- Pointer to Code segment in which your program runs
-> DS -- Pointer to Data segment that your program accesses
-> ES,FS,GS -- Extra segment registers available for far pointer addressing like video memory
-> SS -- Pointer to Stack segment your program uses.
-> OF -- Overflow flag, used if destination could not store the entire result
-> SF -- Sign flag, used if last operation yielded a value with MSB set
-> ZF -- Set if the result of an arithmetic operation is 0
+>  CS -- Pointer to Code segment in which your program runs\
+> DS -- Pointer to Data segment that your program accesses\
+> ES,FS,GS -- Extra segment registers available for far pointer addressing like video memory\
+> SS -- Pointer to Stack segment your program uses.\
+> OF -- Overflow flag, used if destination could not store the entire result\
+> SF -- Sign flag, used if last operation yielded a value with MSB set\
+> ZF -- Set if the result of an arithmetic operation is 0\
 
 ## Instructions
 - mov/Move(Opcodes: 88, 89, 8A, 8B) -- The mov instruction copies the data item referred to by its second operand into the location referred to by its first operand. While register-to-register moves are possible, direct memory-to-memory moves are not.
