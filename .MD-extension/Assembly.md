@@ -41,7 +41,7 @@
 > SS -- Pointer to Stack segment your program uses.\
 > OF -- Overflow flag, used if destination could not store the entire result\
 > SF -- Sign flag, used if last operation yielded a value with MSB set\
-> ZF -- Set if the result of an arithmetic operation is 0\
+> ZF -- Set if the result of an arithmetic operation is 0
 
 ## Instructions
 - mov/Move(Opcodes: 88, 89, 8A, 8B) -- The mov instruction copies the data item referred to by its second operand into the location referred to by its first operand. While register-to-register moves are possible, direct memory-to-memory moves are not.
