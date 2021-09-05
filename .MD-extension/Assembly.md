@@ -20,7 +20,8 @@
 ## x86 Registers
 
 -x86 Architecture has 8 General-Purpose Registers(GPR), 6 Segment Registers, 1 Flags Register and an Instruction Pointer for 32-bit x86
-![[Pasted image 20210905145709.png]]
+![image](https://user-images.githubusercontent.com/86436966/132128945-56b1eb61-4255-429c-b559-af3a6b515dee.png)
+
 
 > EAX -- Stores function return values
 > EBX -- Base pointer to the data section
