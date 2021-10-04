@@ -35,7 +35,7 @@
  And Curve25519 is used as the elliptic curve.
 
 - Function for finding files:
-> ![image](https://user-images.githubusercontent.com/86436966/135882327-8a6e6fbd-4d0e-4204-a902-bce673e1a7b8.png)
+> ![image](https://user-images.githubusercontent.com/86436966/135882327-8a6e6fbd-4d0e-4204-a902-bce673e1a7b8.png)\
 > It searchs for files not much else to be observed here but it uses a blacklist to filter files it doesnt want to hit.
 > Some of the notable file names include: Windows, Tor browser, Internet Explorer, Google, Appdata... 
 > > ![image](https://user-images.githubusercontent.com/86436966/135882428-62453fff-2ad5-4fa1-9187-b7e42b133177.png)
