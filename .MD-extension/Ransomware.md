@@ -10,7 +10,7 @@
 - Some of the big groups include: **BlackMatter, REvil, RagnarLocker, Lockbit 2.0, Darkside, Babuk**....
 
 > ![image](https://user-images.githubusercontent.com/86436966/135881927-b9703fda-3f75-4c7a-b90d-d3b74c6ee976.png)
--                       notable ransomware attacks of 2020
+-                             notable ransomware attacks of 2020
 
 ## Ransomware 101
 - All modern Ransomware usually
@@ -29,6 +29,7 @@
 - There are a few header files and some interesting c++ files.
 - Starting of with entry.cpp we begin with a BABUK_KEYS, BABUK_SESSION and BABUK_FILEMETA structures. Moving on we have an _encrypt_file function:
  > ![image](https://user-images.githubusercontent.com/86436966/135882253-1f7dff57-383e-4e68-bb25-39531eb55005.png)
+ > 
  All files that are encrypted get a .babyk extension and have "choung dong looks like hot dog!!”" written at the end of them.
  Elliptic-curve Diffie–Hellman (ECDH) scheme is used for file key encryption.
  And Curve25519 is used as the elliptic curve.
