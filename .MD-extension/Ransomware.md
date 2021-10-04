@@ -31,12 +31,12 @@
  > ![image](https://user-images.githubusercontent.com/86436966/135882253-1f7dff57-383e-4e68-bb25-39531eb55005.png)\
  All files that are encrypted get a .babyk extension and have "choung dong looks like hot dog!!”" written at the end of them.\
  Elliptic-curve Diffie–Hellman (ECDH) scheme is used for file key encryption.\
- And Curve25519 is used as the elliptic curve.\
+ And Curve25519 is used as the elliptic curve.
 
 - Function for finding files:
 > ![image](https://user-images.githubusercontent.com/86436966/135882327-8a6e6fbd-4d0e-4204-a902-bce673e1a7b8.png)\
 > It searchs for files not much else to be observed here but it uses a blacklist to filter files it doesnt want to hit.\
-> Some of the notable file names include: Windows, Tor browser, Internet Explorer, Google, Appdata...\
+> Some of the notable file names include: Windows, Tor browser, Internet Explorer, Google, Appdata...
 > > ![image](https://user-images.githubusercontent.com/86436966/135882428-62453fff-2ad5-4fa1-9187-b7e42b133177.png)
 - And for finding paths:
 > ![image](https://user-images.githubusercontent.com/86436966/135882491-55bd1835-71d6-4d6c-ae95-832920f2cca9.png)
