@@ -12,3 +12,8 @@ If you want to reuse them somewhere just credit me.\
 Have fun!
 
 ![image](https://user-images.githubusercontent.com/86436966/135883183-1632b60b-087d-4402-bd34-8a2300a1d224.png)
+
+![image](https://user-images.githubusercontent.com/86436966/135883291-94942207-cda8-417a-8116-357a303290f7.png)
+
+![image](https://user-images.githubusercontent.com/86436966/135883389-ee0dd3d5-60d9-410d-8a67-1de18ac9a2f0.png)
+
