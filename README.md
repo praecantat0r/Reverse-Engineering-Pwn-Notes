@@ -4,7 +4,7 @@
 
 ![image](https://user-images.githubusercontent.com/86436966/136170069-c74b33cf-f402-4519-b53d-52ac9cefe2f5.png)
 
-<div align="center"> The notes i create for myself while learning reverse engineering and malware analysis.\
+- The notes i create for myself while learning reverse engineering and malware analysis.
 - All made with markdown.
 - All made with love.
 - All notes can be downloaded in PDF or in markdown extension if you want to edit them.
