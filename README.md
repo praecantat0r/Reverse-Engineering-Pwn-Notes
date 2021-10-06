@@ -12,6 +12,7 @@
 - My sources are general googling, various courses and talking with people.
 - If you want to reuse them somewhere just credit me.
 
+<div align="center">
 ***Have fun!***
 
 ![image](https://user-images.githubusercontent.com/86436966/135883183-1632b60b-087d-4402-bd34-8a2300a1d224.png)
