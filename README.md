@@ -2,6 +2,8 @@
 
 ## 🦝Work in progress!🦝 
 
+![image](https://user-images.githubusercontent.com/86436966/136170069-c74b33cf-f402-4519-b53d-52ac9cefe2f5.png)
+
 The notes i create for myself while learning reverse engineering and malware analysis.\
 All made with markdown.\
 All made with love.\
