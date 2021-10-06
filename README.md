@@ -11,6 +11,7 @@
 - You can download with `git clone https://github.com/praecantat0r/RE-AND-MALWARE-ANALYSIS-NOTES.git`, ls -la and cd into the directory you want.
 - My sources are general googling, various courses and talking with people.
 - If you want to reuse them somewhere just credit me.
+- When finished, I will upload it with index and folders so it's nice and categorized.
 
 ***Have fun!***
 
