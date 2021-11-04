@@ -28,7 +28,6 @@
  - 2019: LoJax infects UEFI, letting LoJax survive an OS reinstall
 
 ## Methods of Analysis
----
 **Memory Dump Analysis:**
 - Contains static snapshots of RAM. It's possible to create a memory dump for a single process, system kernel or the entire system. Techniques used with this method can be also deployed on a live system.
  
