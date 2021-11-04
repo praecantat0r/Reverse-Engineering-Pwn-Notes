@@ -40,7 +40,7 @@
 **Data Comparison:**
 - Comparison of high-level and low-level system calls may be used in detection of their presence. Another variation is comparing process memory loaded into RAM with the content of the file stored on the hard disk.
 
-> ![image](https://user-images.githubusercontent.com/86436966/140409472-a1e7e1eb-bd18-4349-ba12-20214c331126.png)
+> ![image](https://user-images.githubusercontent.com/86436966/140409472-a1e7e1eb-bd18-4349-ba12-20214c331126.png)\
 > Ideal Rootkit detection method (Credits: [Leian Liu](https://www.researchgate.net/publication/271891692_Research_and_Design_of_Rootkit_Detection_Method))
 
 ## Memory Dumps
