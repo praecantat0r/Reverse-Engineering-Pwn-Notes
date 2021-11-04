@@ -1,6 +1,6 @@
 # RE-AND-MALWARE-ANALYSIS-NOTES
 
-## 🦝Work in progress!🦝 
+## 🦝***CURRENT WORK IN PROGRESS: ROOTKITS***🦝
 
 ![image](https://user-images.githubusercontent.com/86436966/136170069-c74b33cf-f402-4519-b53d-52ac9cefe2f5.png)
 
