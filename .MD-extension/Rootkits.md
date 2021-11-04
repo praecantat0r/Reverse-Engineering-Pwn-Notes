@@ -19,7 +19,7 @@
  Loads underneath the OS, hosts the target OS as a VM and intercepts hardware calls. Hard to detect
  
  ### Short History
- ![[Pasted image 20211102222053.png]]
+ ![image](https://user-images.githubusercontent.com/86436966/140409429-bf393562-05bf-43f2-b996-205b837f4596.png)
  - 1990: First ever rootkit created by Lane Davis and Steven Dake for the SunOS
  - 1999: NTRootkit is the first ever Windows rootkit
  - 2005: Sony BMG rootkit as an anti-piracy tool
@@ -41,7 +41,7 @@
 **Data Comparison:**
 - Comparison of high-level and low-level system calls may be used in detection of their presence. Another variation is comparing process memory loaded into RAM with the content of the file stored on the hard disk.
 
-> ![[Pasted image 20211104200723.png]]
+> ![image](https://user-images.githubusercontent.com/86436966/140409472-a1e7e1eb-bd18-4349-ba12-20214c331126.png)
 > Ideal Rootkit detection method (Credits: [Leian Liu](https://www.researchgate.net/publication/271891692_Research_and_Design_of_Rootkit_Detection_Method))
 
 ## Memory Dumps
