@@ -4,7 +4,7 @@
 Memory is the place where your program is loaded and it's all the local variables, parameters, functions are stored here. The processor then reads instructions from memory and executes them.
 All variables in memory (on intel x86 processeors) are stored in **little endian**. In little endian, the bytes are stored in **reverse order.**
 Memory addresses are given in **hexadecimals**.
-> ![[Pasted image 20220220155948.png]]
+> ![![image](https://user-images.githubusercontent.com/86436966/154855073-2a62f35c-3b8a-4a20-81b5-0b8ea45a1215.png)]
 
 **Kernel**: The main layer between the **OS and hardware**, a core that provides basic services for all other parts of the OS. This part also containts command line variables and enviroment variables.
 **Stack:** The stack is a **section of memory that stores temporary data**, that is executed when a function is called.
