@@ -14,10 +14,10 @@ It works on LIFO(last-in-first-out) principle and it grows **downward towards lo
 **Data:** Contains global information for program. The DATA section has Initialised variables and BSS section contains Uninitialised variables.  
 
 ## *Registers:*
-Registers are **small amounts of high-speed memory contained within the CPU**. There are a fixed number of registers that are used for different purposes and they all have a specific location in the CPU.
-Registers can hold **pointers which point to memory addresses containing certain instructions for the program to perform**, this can be exploited by using a jump instruction to move to a different memory location containing malicious code.
+Registers are **small amounts of high-speed memory contained within the CPU**. There are a fixed number of registers that are used for different purposes and they all have a specific location in the CPU.  
+Registers can hold **pointers which point to memory addresses containing certain instructions for the program to perform**, this can be exploited by using a jump instruction to move to a different memory location containing malicious code.  
 For example a register called **Instruction Pointer(RIP,EIP)** is used to keep track of what instruction to be executed next by the CPU.
-Intel assembly has 8 general purpose and 2 special purpose 32-bit register.
+Intel assembly has 8 general purpose and 2 special purpose 32-bit register.  
 
 | Register | Type | Purpose |
 |-|-|-|
