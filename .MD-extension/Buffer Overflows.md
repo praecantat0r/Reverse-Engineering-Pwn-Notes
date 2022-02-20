@@ -1,9 +1,9 @@
 # ***Buffer Overflows***
 
 ## *Memory*
-Memory is the place where your program is loaded and it's all the local variables, parameters, functions are stored here. The processor then reads instructions from memory and executes them.
+Memory is the place where your program is loaded and it's all the local variables, parameters, functions are stored here. The processor then reads instructions from memory and executes them.  
 All variables in memory (on intel x86 processeors) are stored in **little endian**. In little endian, the bytes are stored in **reverse order.**
-Memory addresses are given in **hexadecimals**.
+Memory addresses are given in **hexadecimals**.  
 > ![image](https://user-images.githubusercontent.com/86436966/154855073-2a62f35c-3b8a-4a20-81b5-0b8ea45a1215.png)
 
 **Kernel**: The main layer between the **OS and hardware**, a core that provides basic services for all other parts of the OS. This part also containts command line variables and enviroment variables.  
@@ -32,8 +32,8 @@ Intel assembly has 8 general purpose and 2 special purpose 32-bit register.
 | EIP | Special Purpose | Stores a pointer to the address of the instruction that the program is currently executing. After each instruction, a value equal to the its size is added to EIP, meaning it points at the machine code for the next instruction. |
 | FLAGS | Special Purpose | Stores meta-information about the results of previous operations i.e. whether it overflowed the register or whether the operands were equal. |
 
-Registers show here are 32-bit but they can also be 64-bit, 16-bit and 8-bit.
-For example, the EAX register is RAX in 64-bit, AX in 16-bit and AL in 8-bit.
+Registers show here are 32-bit but they can also be 64-bit, 16-bit and 8-bit.  
+For example, the EAX register is RAX in 64-bit, AX in 16-bit and AL in 8-bit.  
 
 ## *Buffer:*
 Most programs usually take an input and process an output on basis of that through some specified functions. These strings and arrays are stored in buffer. So buffer holds up objects of same data type. This input can be taken from:
@@ -42,7 +42,7 @@ Most programs usually take an input and process an output on basis of that throu
  - Data provided in a file.
  - Data provided in variables.
 
-The CPU reads the input until it reaches a **null character**, which tells it about the termination of string. The buffer is provided a specific amount of space in the memory. As reading an array involves reading towards higher memory addresses, the buffer is allocated memory from lower towards higher memory addresses in most systems.
+The CPU reads the input until it reaches a **null character**, which tells it about the termination of string. The buffer is provided a specific amount of space in the memory.   As reading an array involves reading towards higher memory addresses, the buffer is allocated memory from lower towards higher memory addresses in most systems.  
 
 ## *Pointers:*
 A pointer is, a variable that stores a memory address as its value, which will correspond to a certain instruction the program will have to perform. The value of the memory address can be obtained by **dereferencing** the pointer.
@@ -57,9 +57,9 @@ A pointer is, a variable that stores a memory address as its value, which will c
 | Manipulating the Stack | Used for adding and removing data from the stack. | push, pop | 
 
 ## *Buffer Overflow:*
-A buffer can be compared to a water tank. You have a fixed amount of space to fill and if you fill more than that it overflows and the water leaks everywhere. This is what happens during a buffer overflow.
+A buffer can be compared to a water tank. You have a fixed amount of space to fill and if you fill more than that it overflows and the water leaks everywhere. This is what happens during a buffer overflow.  
 If user input is supposed to be 1000 characters and you input 1500, the input crosses the buffer boundary and **overwrites the memory surrounding it**. This happens when there are no bound checks in place and the excess data is copied onto the buffer. If this happens it usually leads to a **Segmentation Fault**. A Segmentation Fault happens when you try to access areas of memory  which you aren't supposed to access.
 
-We can use this concept to crash the system, corrupt memory and execute arbitrary code with the same privileges as the program we are exploiting. There are different types of buffer overflow.
-For example in a stack based buffer overflow we can use the buffer to overwrite the return address. The return address point to where the control should be returned after execution. We can replace that with an address of a CPU instruction like our shellcode which can spawn a shell in our listener.
-Shellcode is a set of CPU instruction used as the payload to gain our shell.
+We can use this concept to crash the system, corrupt memory and execute arbitrary code with the same privileges as the program we are exploiting. There are different types of buffer overflow.  
+For example in a stack based buffer overflow we can use the buffer to overwrite the return address. The return address point to where the control should be returned after execution. We can replace that with an address of a CPU instruction like our shellcode which can spawn a shell in our listener.  
+Shellcode is a set of CPU instruction used as the payload to gain our shell.  
