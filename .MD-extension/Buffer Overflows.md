@@ -6,12 +6,12 @@ All variables in memory (on intel x86 processeors) are stored in **little endian
 Memory addresses are given in **hexadecimals**.
 > ![image](https://user-images.githubusercontent.com/86436966/154855073-2a62f35c-3b8a-4a20-81b5-0b8ea45a1215.png)
 
-**Kernel**: The main layer between the **OS and hardware**, a core that provides basic services for all other parts of the OS. This part also containts command line variables and enviroment variables.\n
-**Stack:** The stack is a **section of memory that stores temporary data**, that is executed when a function is called.\n
-It works on LIFO(last-in-first-out) principle and it grows **downward towards lower values.**\n
-**Heap:** Holds all the **dynamically allocated memory**. Whenever we use malloc to get memory dynamically, it is allocated from the heap. The heap grows upwards in memory(from lower to higher memory addresses) as more and more memory is required.\n
-**Text:** Contains program code to be executed. It is read only and any attempt to write in it will lead to memory violation.\n
-**Data:** Contains global information for program. The DATA section has Initialised variables and BSS section contains Uninitialised variables.\n
+**Kernel**: The main layer between the **OS and hardware**, a core that provides basic services for all other parts of the OS. This part also containts command line variables and enviroment variables.  
+**Stack:** The stack is a **section of memory that stores temporary data**, that is executed when a function is called.
+It works on LIFO(last-in-first-out) principle and it grows **downward towards lower values.**  
+**Heap:** Holds all the **dynamically allocated memory**. Whenever we use malloc to get memory dynamically, it is allocated from the heap. The heap grows upwards in memory(from lower to higher memory addresses) as more and more memory is required.  
+**Text:** Contains program code to be executed. It is read only and any attempt to write in it will lead to memory violation.  
+**Data:** Contains global information for program. The DATA section has Initialised variables and BSS section contains Uninitialised variables.  
 
 ## *Registers:*
 Registers are **small amounts of high-speed memory contained within the CPU**. There are a fixed number of registers that are used for different purposes and they all have a specific location in the CPU.
